@@ -1,4 +1,4 @@
-import kv from "@/lib/kv";
+import kv from "import kv from "../../../lib/kv";
 import { NextResponse } from "next/server";
 export async function GET() {
   const today = new Date().toISOString().split("T")[0];
