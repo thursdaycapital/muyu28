@@ -1,4 +1,4 @@
-import kv from "@/lib/kv";
+import kv from "import kv from "../../../lib/kv";
 import { NextResponse } from "next/server";
 export async function POST(req: Request) {
   const { fid } = await req.json();
